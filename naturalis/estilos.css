@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+@font-face {
+    font-family:"fuente" ;
+    src: url(the_vine/The\ Vine.ttf);
+}
+.logo{
+    position: fixed;
+    right: 0;
+    padding: 0.5em;
+}
+.a{
+    font-family: "fuente";
+    position: relative;
+    display: inline;
+    padding: 3.2em;
+    font-size: 180%;
+    bottom: 0em;
+    font-weight:900px;
+}
+header{
+    background-image: url(imagenes/naturaleza.jpg);
+    padding: 3em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+   background-color: azure;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.sub1{
+    margin-top: 1em;
+    margin-left: -20em;
+    margin-right: 10em;
+    color: rgba(0, 0, 0, 0.747);
+    font-size:xx-large; 
+    text-align: center;
+    padding: 1em;
+}
+
+.qs{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.c1{
+    padding: 25px;
+    margin: 0 2px;
+}
+.c2{
+    padding: 25px;
+    margin: 0 2px;
+}
+.c3{
+    padding: 25px;
+    margin: 0 2px;
+}
+.c4{
+    padding: 25px;
+    margin: 0 2px;
+}
+.unet{
+    margin-top: 2em;
+    margin-left: 13em;
+    margin-right: 13em;
+    font-size: xx-large;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.747);
+}
+.slider-container {
+    background-color: rgba(0, 0, 0, 0.747);
+    margin-left: 20%;
+    margin-top: 2em;
+    display: flex;
+    width: 60%;
+    height: 70vh;
+    overflow-x: scroll;
+}
+body {
+    background-color: #7CF4AD;
+}
+.mapa{
+    position: relative;
+    padding: 2EM;
+}
